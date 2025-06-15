@@ -2,6 +2,8 @@ package net.quedoom.channelo;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.quedoom.channelo.block.ModBlocks;
+import net.quedoom.channelo.item.ModItemGroups;
 import net.quedoom.channelo.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +14,9 @@ public class Channel implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlock();
 	}
 }

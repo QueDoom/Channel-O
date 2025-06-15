@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "channelo:resonant_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "channelo:crushed_resonant_dust"
+  }
+}

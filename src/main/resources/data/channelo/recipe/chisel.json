@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "channelo:whispering_potato"
+    },
+    "R": {
+      "item": "channelo:crushed_resonant_dust"
+    }
+  },
+  "pattern": [
+    "RR ",
+    "RP ",
+    " PP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "channelo:chisel"
+  }
+}

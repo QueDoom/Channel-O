@@ -1,4 +1,15 @@
 {
-  "item.channelo.whisperglass_chard": "Whisperglass Shard",
-  "item.channelo.crushed_resonant_dust": "Crushed Resonant Dust"
+  "item.channelo.whisperglass_shard": "Whisperglass Shard",
+  "item.channelo.crushed_resonant_dust": "Crushed Resonant Dust",
+  "item.channelo.chisel": "Chisel",
+  "item.channelo.whispering_potato": "Whispering Potato",
+
+  "block.channelo.resonant_block": "Resonant Block",
+  "block.channelo.whisperglass": "Whisperglass",
+
+  "itemgroup.channelo.channel_o_items": "Channel Ø",
+  "itemgroup.channelo.notes": "Notes",
+  "itemgroup.channelo.data_fragments": "Data Fragments",
+
+  "item.tooltip.channelo.chisel": "What is this mysterious technology?"
 }

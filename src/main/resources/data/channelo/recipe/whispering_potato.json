@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {"item": "minecraft:potato"},
+    "W": {"item": "channelo:whisperglass_shard"}
+  },
+  "pattern": [
+    "W W",
+    "WPW",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "id": "channelo:whispering_potato"
+  }
+}
