@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "channelo:resonant_block"
+    "channelo:resonant_block",
+    "channelo:resonant_cauldron"
   ]
 }

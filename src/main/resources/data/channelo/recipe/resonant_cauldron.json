@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "D": {"item": "channelo:crushed_resonant_dust"},
+    "B": {"item": "channelo:resonant_block"}
+  },
+  "pattern": [
+    "D D",
+    "D D",
+    "BDB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "channelo:resonant_cauldron"
+  }
+}

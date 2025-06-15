@@ -19,7 +19,9 @@ public class ModBlocks {
     public static final Block RESONANT_BLOCK = registerBlock("resonant_block",
             new Block(AbstractBlock.Settings.create().strength(0.7f, 4f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).instrument(NoteBlockInstrument.BASEDRUM)
-                    .mapColor(MapColor.PURPLE)));
+                    .mapColor(MapColor.PURPLE)
+            )
+    );
 
     public static final Block WHISPERGLASS = registerBlock(	"whisperglass",
             new TransparentBlock(
@@ -32,6 +34,14 @@ public class ModBlocks {
                             .solidBlock(Blocks::never)
                             .suffocates(Blocks::never)
                             .blockVision(Blocks::never)
+            )
+    );
+
+    public static final Block RESONANT_CAULDRON = registerBlock("resonant_cauldron",
+            new Block(AbstractBlock.Settings.create().strength(1f, 2f)
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).instrument(NoteBlockInstrument.BASEDRUM)
+                    .mapColor(MapColor.PURPLE).nonOpaque().suffocates(Blocks::never).allowsSpawning(Blocks::never)
+                    .solidBlock(Blocks::never).blockVision(Blocks::never)
             )
     );
 
